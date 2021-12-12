@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SlashScreen">
+
+  <ImageView
+      android:id="@+id/iv_shape"
+      android:layout_width="290dp"
+      android:layout_height="214dp"
+      android:layout_marginStart="-40dp"
+      android:layout_marginTop="-70dp"
+      android:src="@drawable/Shape"/>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/food_ordering_app"
+      android:textColor="@color/Kuning"
+      android:layout_gravity="center"
+      android:textSize="30sp"
+      android:textStyle="bold"/>
+
+  <ImageView
+      android:layout_width="336dp"
+      android:layout_height="350dp"
+      android:layout_gravity="center"
+      android:src="@drawable/slashscreen"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/bt_login"
+      android:layout_width="300dp"
+      android:layout_height="48dp"
+      android:text="@string/sign_in"
+      android:textColor="@color/white"
+      android:layout_gravity="center"
+      android:background="#FEB72B"
+      android:layout_marginTop="8dp"
+      android:layout_marginBottom="8dp"/>
+
+  <androidx.appcompat.widget.AppCompatButton
+      android:id="@+id/bt_regis"
+      android:layout_width="300dp"
+      android:layout_height="48dp"
+      android:text="@string/sign_up"
+      android:textColor="@color/white"
+      android:background="#FEB72B"
+      android:layout_gravity="center"/>
+
+</LinearLayout>
