@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <ImageView
+        android:id="@+id/iv_shape"
+        android:layout_width="290dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="-40dp"
+        android:layout_marginTop="-70dp"
+        android:src="@drawable/Shape"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_onboard"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <ImageView
+        android:layout_width="211dp"
+        android:layout_height="176dp"
+        android:layout_gravity="center"
+        android:src="@drawable/login"/>
+
+    <EditText
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_full_name"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_email"
+        android:layout_gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bt_regis"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:background="#FEB72B"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+</LinearLayout>

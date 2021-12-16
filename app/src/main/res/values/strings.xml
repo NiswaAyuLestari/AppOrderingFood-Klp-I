@@ -3,4 +3,13 @@
     <string name="food_ordering_app">Food Ordering App</string>
     <string name="sign_up">SIGN UP</string>
     <string name="sign_in">SIGN IN</string>
+    <string name="welcome_onboard">Welcome Onboard!</string>
+    <string name="register_to_enter_the_app">Register to enter the app</string>
+    <string name="confrim_password">Confrim password</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="enter_your_full_name">Enter your full name</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in2">Sign in</string>
 </resources>
