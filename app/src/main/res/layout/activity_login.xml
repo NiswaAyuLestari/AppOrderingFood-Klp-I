@@ -11,9 +11,9 @@
         android:id="@+id/iv_shape"
         android:layout_width="290dp"
         android:layout_height="214dp"
+        android:src="@drawable/bentuk"
         android:layout_marginStart="-40dp"
-        android:layout_marginTop="-70dp"
-        android:src="@drawable/Shape"/>
+        android:layout_marginTop="-70dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -23,25 +23,35 @@
         android:layout_gravity="center"
         android:textSize="25sp"
         android:textStyle="bold"
-        android:layout_marginTop="25dp"/>
+        android:layout_marginBottom="16dp"/>
 
     <ImageView
         android:layout_width="211dp"
         android:layout_height="176dp"
         android:layout_gravity="center"
-        android:src="@drawable/login"/>
+        android:src="@drawable/login"
+        android:layout_marginBottom="24dp"/>
 
     <EditText
         android:layout_width="283dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/enter_your_full_name"
-        android:layout_gravity="center"/>
+        android:layout_height="42dp"
+        android:hint="@string/email"
+        android:layout_gravity="center"
+        android:background="@drawable/et_style"
+        android:layout_marginBottom="16dp"
+        android:inputType="textEmailAddress"
+        android:drawableStart="@drawable/ic_email_"
+        android:drawablePadding="10dp"/>
 
     <EditText
         android:layout_width="283dp"
-        android:layout_height="wrap_content"
-        android:hint="@string/enter_your_email"
-        android:layout_gravity="center"/>
+        android:layout_height="42dp"
+        android:hint="@string/password"
+        android:layout_gravity="center"
+        android:inputType="textPassword"
+        android:background="@drawable/et_style"
+        android:drawableStart="@drawable/ic_lock_24"
+        android:drawablePadding="10dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bt_regis"
@@ -49,7 +59,7 @@
         android:layout_height="48dp"
         android:text="Login"
         android:textColor="@color/white"
-        android:background="#FEB72B"
+        android:background="@drawable/buttonstyle"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"/>
 

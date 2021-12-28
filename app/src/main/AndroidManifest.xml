@@ -10,16 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OrderingFood">
         <activity
+            android:name=".HomeActivity"
+            android:exported="true" />
+        <activity
             android:name=".Login"
             android:exported="true" />
         <activity
             android:name=".Registration"
             android:exported="true" />
         <activity
-            android:name=".SlashScreen"
+            android:name=".MainActivity"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SlashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

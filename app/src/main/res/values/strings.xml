@@ -10,6 +10,7 @@
     <string name="enter_your_email">Enter your email</string>
     <string name="enter_your_full_name">Enter your full name</string>
     <string name="already_have_an_account">Already have an account?</string>
-    <string name="already_have_an_account">Already have an account?</string>
     <string name="sign_in2">Sign in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
 </resources>
