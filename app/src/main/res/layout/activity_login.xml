@@ -16,6 +16,7 @@
         android:layout_marginTop="-70dp" />
 
     <TextView
+        android:layout_marginTop="-30dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/welcome_onboard"
@@ -33,6 +34,7 @@
         android:layout_marginBottom="24dp"/>
 
     <EditText
+        android:id="@+id/et_email"
         android:layout_width="283dp"
         android:layout_height="42dp"
         android:hint="@string/email"
@@ -44,6 +46,7 @@
         android:drawablePadding="10dp"/>
 
     <EditText
+        android:id="@+id/et_pass"
         android:layout_width="283dp"
         android:layout_height="42dp"
         android:hint="@string/password"
@@ -54,7 +57,7 @@
         android:drawablePadding="10dp"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/bt_regis"
+        android:id="@+id/bt_login"
         android:layout_width="300dp"
         android:layout_height="48dp"
         android:text="Login"
@@ -62,5 +65,32 @@
         android:background="@drawable/buttonstyle"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Akun"
+            android:textColor="#B3000000"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/tv_regis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Registrasi"
+            android:textColor="@color/Kuning"
+            android:textSize="15sp"
+            android:layout_toEndOf="@id/tv1"
+            android:layout_marginStart="4dp"/>
+
+    </RelativeLayout>
 
 </LinearLayout>

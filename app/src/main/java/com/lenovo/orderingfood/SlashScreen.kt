@@ -11,9 +11,15 @@ class SlashScreen : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_slash_screen)
 
-        val buttonLogin: Button = findViewById(R.id.bt_login)
-        buttonLogin.setOnClickListener {
-            val intentLogin = Intent(this, Login::class.java)
+//        val buttonLogin: Button = findViewById(R.id.bt_login)
+//        buttonLogin.setOnClickListener {
+//            val intentLogin = Intent(this, Login::class.java)
+//            startActivity(intentLogin)
+//        }
+
+        val buttonLogin : Button = findViewById(R.id.bt_login)
+        buttonLogin.setOnClickListener{
+            val intentLogin = Intent (this, Login::class.java)
             startActivity(intentLogin)
         }
 

@@ -11,6 +11,7 @@
     <string name="enter_your_full_name">Enter your full name</string>
     <string name="already_have_an_account">Already have an account?</string>
     <string name="sign_in2">Sign in</string>
-    <string name="email">Email</string>
-    <string name="password">Password</string>
+    <string name="email">username atau email</string>
+    <string name="password">password</string>
+    <string name="enter_your_username">enter_your_username</string>
 </resources>
