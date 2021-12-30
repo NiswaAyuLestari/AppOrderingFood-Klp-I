@@ -12,7 +12,7 @@ class DBHelper(context: Context?) :
     override fun onCreate(db: SQLiteDatabase) {
         val query =
             ("CREATE TABLE " + table_name + "(" + row_id + " INTEGER PRIMARY KEY AUTOINCREMENT,"
-                    + row_email + " TEXT," + row_user + " TEXT," + row_password + " TEXT)")
+                    + row_email + " TEXT," + row_password + " TEXT," + row_user + " TEXT)")
         db.execSQL(query)
     }
 
@@ -25,11 +25,11 @@ class DBHelper(context: Context?) :
         db.insert(table_name, null, values)
     }
 
-    fun checkUser(email: String, user: String, password: String): Boolean {
+    fun checkUser(email: String, password: String, user: String,): Boolean {
         val columns = arrayOf(row_id)
         val db = readableDatabase
-        val selection = row_email + "=?" + row_user + "=?" + " and " + row_password + "=?"
-        val selectionArgs = arrayOf(email, user, password)
+        val selection = row_email + "=?" + " and " + row_password + "=?" + " and " + row_user + "=?"
+        val selectionArgs = arrayOf(email, password, user)
         val cursor = db.query(table_name, columns, selection, selectionArgs, null, null, null)
         val count = cursor.count
         cursor.close()

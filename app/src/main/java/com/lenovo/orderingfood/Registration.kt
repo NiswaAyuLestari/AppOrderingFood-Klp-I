@@ -2,15 +2,25 @@ package com.lenovo.orderingfood
 
 import android.content.ContentValues
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 
+//
+//import android.content.ContentValues
+//import android.content.Intent
+//import androidx.appcompat.app.AppCompatActivity
+//import android.os.Bundle
+//import android.widget.Button
+//import android.widget.EditText
+//import android.widget.TextView
+//import android.widget.Toast
+//
 class Registration : AppCompatActivity() {
-
+//
     var TxName: EditText? = null
     var TxUser: EditText? = null
     var TxEmail: EditText? = null
@@ -18,11 +28,11 @@ class Registration : AppCompatActivity() {
     var TxConPassword: EditText? = null
     var BtnRegister: Button? = null
     var dbHelper: DBHelper? = null
-
+//
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registration)
-
+//
         dbHelper = DBHelper(this)
         TxName = findViewById(R.id.et_name) as EditText?
         TxUser = findViewById(R.id.et_user) as EditText?
@@ -30,14 +40,14 @@ class Registration : AppCompatActivity() {
         TxPassword = findViewById(R.id.et_pass) as EditText?
         TxConPassword = findViewById(R.id.et_confirm) as EditText?
         BtnRegister = findViewById(R.id.bt_regis) as Button?
-
-
+//
+//
         val textLogin: TextView = findViewById(R.id.tv_sign_in)
         textLogin.setOnClickListener {
             val intentLogin = Intent(this, Login::class.java)
             startActivity(intentLogin)
         }
-
+//
         BtnRegister!!.setOnClickListener {
             val email = TxEmail!!.text.toString().trim { it <= ' ' }
             val user = TxUser!!.text.toString().trim { it <= ' ' }

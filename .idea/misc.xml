@@ -3,16 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable-v24/ic_circle_white.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable/background.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable/et_style.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable/rounded_edittext.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable/roundedcorner.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable/shape.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_drink.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_home.xml" value="0.18" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_registration.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_slash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/item_list_drink.xml" value="0.25" />
       </map>
     </option>
   </component>

@@ -1,10 +1,12 @@
 package com.lenovo.orderingfood
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import android.database.sqlite.SQLiteDatabase
+import android.widget.LinearLayout
 
 class HomeActivity : AppCompatActivity() {
 
@@ -16,5 +18,10 @@ class HomeActivity : AppCompatActivity() {
         val tv_user: TextView = findViewById(R.id.user)
         tv_user.setText(username)
 
+        val drink: LinearLayout = findViewById(R.id.llDrink)
+        drink.setOnClickListener{
+            val intenRegis = Intent(this, DrinkActivity::class.java)
+            startActivity(intenRegis)
+        }
     }
 }
