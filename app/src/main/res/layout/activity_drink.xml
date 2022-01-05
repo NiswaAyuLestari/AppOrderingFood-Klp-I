@@ -27,7 +27,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Drink"
-        android:textSize="16sp"
+        android:padding="6dp"
+        android:fontFamily="sans-serif-condensed"
+        android:letterSpacing="0.1"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:textColor="@color/black"/>
 
@@ -37,11 +40,12 @@
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvHotel"
+            android:id="@+id/rvDrink"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:paddingTop="5dp"
-            android:scrollbars="vertical" />
+            android:scrollbars="vertical"
+            tools:listitem="@layout/item_list_drink" />
 
     </RelativeLayout>
 

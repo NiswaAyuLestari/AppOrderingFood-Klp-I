@@ -14,4 +14,5 @@
     <string name="email">username atau email</string>
     <string name="password">password</string>
     <string name="enter_your_username">enter_your_username</string>
+    <string name="pesan_sekarang">Pesan Sekarang</string>
 </resources>

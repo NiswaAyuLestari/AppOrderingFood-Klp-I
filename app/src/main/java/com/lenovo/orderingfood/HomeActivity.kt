@@ -23,5 +23,23 @@ class HomeActivity : AppCompatActivity() {
             val intenRegis = Intent(this, DrinkActivity::class.java)
             startActivity(intenRegis)
         }
+
+        val fruit: LinearLayout = findViewById(R.id.llFruit)
+        fruit.setOnClickListener{
+            val intenRegis = Intent(this, DrinkActivity::class.java)
+            startActivity(intenRegis)
+        }
+
+        val cake: LinearLayout = findViewById(R.id.llCake)
+        cake.setOnClickListener{
+            val intenRegis = Intent(this, DrinkActivity::class.java)
+            startActivity(intenRegis)
+        }
+
+        val food: LinearLayout = findViewById(R.id.llFood)
+        food.setOnClickListener{
+            val intenRegis = Intent(this, DrinkActivity::class.java)
+            startActivity(intenRegis)
+        }
     }
 }
