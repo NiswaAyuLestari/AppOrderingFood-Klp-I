@@ -32,13 +32,13 @@ class HomeActivity : AppCompatActivity() {
 
         val cake: LinearLayout = findViewById(R.id.llCake)
         cake.setOnClickListener{
-            val intenRegis = Intent(this, DrinkActivity::class.java)
+            val intenRegis = Intent(this, CakeActivity::class.java)
             startActivity(intenRegis)
         }
 
         val food: LinearLayout = findViewById(R.id.llFood)
         food.setOnClickListener{
-            val intenRegis = Intent(this, DrinkActivity::class.java)
+            val intenRegis = Intent(this, FoodActivity::class.java)
             startActivity(intenRegis)
         }
     }

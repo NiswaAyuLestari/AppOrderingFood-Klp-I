@@ -6,18 +6,26 @@
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable-v24/ic_circle_white.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable/background.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable/et_style.xml" value="0.2203125" />
+        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable/rounded.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable/rounded_edittext.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable/roundedcorner.xml" value="0.2203125" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/drawable/shape.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_cake.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_detail_drink.xml" value="0.33" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_drink.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_food.xml" value="0.14166666666666666" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_home.xml" value="0.18" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_proses_pesanan.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_registration.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/activity_slash_screen.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/fragment_form.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/fragment_home.xml" value="0.17685185185185184" />
+        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/fragment_proses.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/item_list_cake.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/item_list_drink.xml" value="0.25" />
+        <entry key="..\:/Users/LENOVO PC/AndroidStudioProjects/OrderingFoodSederhana/app/src/main/res/layout/item_list_food.xml" value="0.20102564102564102" />
       </map>
     </option>
   </component>

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OrderingFood">
         <activity
+            android:name=".CakeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".FoodActivity"
+            android:exported="true" />
+        <activity
             android:name=".ProsesPesanan"
             android:exported="true" />
         <activity

@@ -15,4 +15,6 @@
     <string name="password">password</string>
     <string name="enter_your_username">enter_your_username</string>
     <string name="pesan_sekarang">Pesan Sekarang</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

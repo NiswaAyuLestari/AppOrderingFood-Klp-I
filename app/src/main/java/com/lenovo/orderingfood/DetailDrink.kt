@@ -12,7 +12,6 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 
 class DetailDrink : AppCompatActivity() {
-    private var title: String = "Detail"
 
     companion object {
         const val EXTRA_NAMA = "extra nama"
@@ -25,7 +24,6 @@ class DetailDrink : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_drink)
-        setActionBarTitle(title)
 
         //inisialisasi di activity_detail.xml
         val nama_drink: TextView = findViewById(R.id.NamaDrink)
@@ -54,14 +52,13 @@ class DetailDrink : AppCompatActivity() {
 
         val buttonPesan: Button = findViewById(R.id.bt_pesan)
         buttonPesan.setOnClickListener{
-            Toast.makeText(this@DetailDrink, "PESANAN ANDA SEDANG DI PROSES", Toast.LENGTH_SHORT).show()
+            val pesan = Intent(this, MainActivity::class.java)
+            startActivity(pesan)
+//            Toast.makeText(this@DetailDrink, "PESANAN ANDA SEDANG DI PROSES", Toast.LENGTH_SHORT).show()
         }
 
     }
 
-    private fun setActionBarTitle(title: String) {
-        supportActionBar?.title = title
-    }
 }
 
 
