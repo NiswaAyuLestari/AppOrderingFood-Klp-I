@@ -2,10 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
-    android:id="@+id/rl_listfood">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_listfruit"
+    android:orientation="vertical">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -23,7 +23,7 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:id="@+id/imgFood"
+                    android:id="@+id/imgFruit"
                     android:layout_width="168dp"
                     android:layout_height="150dp"
                     android:padding="5dp"
@@ -32,14 +32,14 @@
                     tools:src="@drawable/dd"/>
 
                 <TextView
-                    android:id="@+id/NamaFood"
+                    android:id="@+id/NamaFruit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="5dp"
                     android:layout_marginBottom="5dp"
-                    android:layout_toRightOf="@id/imgFood"
+                    android:layout_toRightOf="@id/imgFruit"
                     android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                     android:textColor="@android:color/black"
                     android:textSize="16sp"
@@ -47,27 +47,27 @@
                     tools:text="Strawbery Summer" />
 
                 <TextView
-                    android:id="@+id/JenisFood"
+                    android:id="@+id/JenisFruit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/NamaFood"
+                    android:layout_below="@id/NamaFruit"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="5dp"
                     android:layout_marginBottom="5dp"
-                    android:layout_toRightOf="@id/imgFood"
+                    android:layout_toRightOf="@id/imgFruit"
                     android:textSize="14sp"
                     tools:text="Strawbery Summer" />
 
                 <TextView
-                    android:id="@+id/HargaFood"
+                    android:id="@+id/HargaFruit"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/JenisFood"
+                    android:layout_below="@id/JenisFruit"
                     android:layout_marginStart="5dp"
                     android:layout_marginEnd="5dp"
                     android:layout_marginBottom="5dp"
-                    android:layout_toRightOf="@id/imgFood"
+                    android:layout_toRightOf="@id/imgFruit"
                     android:textColor="@color/black"
                     android:textSize="14sp"
                     android:textStyle="bold"
@@ -77,5 +77,6 @@
         </androidx.cardview.widget.CardView>
 
     </RelativeLayout>
+
 
 </LinearLayout>

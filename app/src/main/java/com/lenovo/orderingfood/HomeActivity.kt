@@ -26,7 +26,7 @@ class HomeActivity : AppCompatActivity() {
 
         val fruit: LinearLayout = findViewById(R.id.llFruit)
         fruit.setOnClickListener{
-            val intenRegis = Intent(this, DrinkActivity::class.java)
+            val intenRegis = Intent(this, FruitActivity::class.java)
             startActivity(intenRegis)
         }
 
